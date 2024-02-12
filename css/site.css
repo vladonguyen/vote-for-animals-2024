@@ -2,8 +2,23 @@
 @import url(typography.css);
 @import url(header.css);
 
+div.banner {
+    background-color: #f2e9df;
+}
+
 div.banner img {
     overflow: hidden;
     width: 100%;
     height: auto;
+}
+
+div#introtext {
+    background-color: #f2e9df;
+}
+
+div.container {
+    max-width: 1200px;
+    padding: 3em;
+    margin: auto;
+
 }
