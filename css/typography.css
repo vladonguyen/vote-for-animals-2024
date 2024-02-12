@@ -1,0 +1,11 @@
+html {
+    font: 18 px/1.5 'Barwow', 'Arial', sans-serif
+}
+
+body, input, textarea {
+    font: inherit;
+}
+
+p, ul, ol {
+    padding-bottom: 1.5em;
+}
