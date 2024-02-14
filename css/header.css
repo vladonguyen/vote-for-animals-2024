@@ -27,3 +27,8 @@ div#logo {
 div#language {
     color: #1f6ed4;
 }
+
+div.container {
+    max-width: 1200px;
+    text-align: center;
+}

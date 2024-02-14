@@ -12,7 +12,7 @@ div.banner img {
     height: auto;
 }
 
-div#introtext {
+section#introtext {
     background-color: #f2e9df;
 }
 
@@ -22,3 +22,65 @@ div.container {
     margin: auto;
 
 }
+
+div#cta {
+    font-size: 1.11em;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    color: #000;
+    width: fit-content;
+    height: auto;
+    position: relative;
+    padding: 0.7em;
+    margin: auto auto 3em;
+
+}
+
+
+
+div#cta:before {
+    content: "";
+    position: absolute;
+    background: #f18f59;
+    border-radius: 15px;
+    transform: skew(-5deg);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+/*to fix button arrow position*/
+div#cta img {
+    width: auto;
+    height: 35px;
+    padding-left: 0.5em;
+}
+
+section#form-pledges {
+    color: #fff;
+}
+
+div#twocolumns {
+    color: #000;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+div#left-column {
+    width: 100%;
+    padding: 1em;
+}
+
+div#pledges {
+    background-color: #f18f59;
+    width: 100%;
+}
+
+div.desc-form {
+    text-align: left;
+}
+
+div.widget {}
