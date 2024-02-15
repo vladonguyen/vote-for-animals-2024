@@ -69,13 +69,18 @@ div#twocolumns {
     justify-content: space-evenly;
 }
 
+@media screen and (max-width:767px) {
+    div#twocolumns {
+        flex-direction: column;
+    }
+}
+
 div#left-column {
     width: 100%;
     padding: 1em;
 }
 
 div#pledges {
-    background-color: #f18f59;
     width: 100%;
 }
 
