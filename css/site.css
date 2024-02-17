@@ -80,12 +80,44 @@ div#left-column {
     padding: 1em;
 }
 
-div#pledges {
+div#right-column {
     width: 100%;
+    padding: 1em;
 }
 
 div.desc-form {
     text-align: left;
 }
 
-div#widget {}
+div#right-column {
+    text-align: left;
+}
+
+h2#pledges-title {
+    margin-bottom: 0.5em;
+}
+
+div.title-pledges {
+    font-size: 0.88em;
+    font-weight: bold;
+    display: block;
+    padding-block: 1.8em;
+}
+
+div.default-item {
+    border-top: 0.14em solid #e5e5e5;
+}
+
+div.image-wrap {
+    width: 30%;
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+img.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+
+}
