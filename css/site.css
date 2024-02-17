@@ -121,3 +121,8 @@ img.img-responsive {
     height: auto;
 
 }
+
+div.pledge-content-item {
+    display: block;
+    margin-bottom: 2em;
+}
