@@ -126,3 +126,15 @@ div.pledge-content-item {
     display: block;
     margin-bottom: 2em;
 }
+
+.title-pledges a {
+    text-decoration: none;
+}
+
+.title-pledges a:hover {
+    color: #337ab7;
+}
+
+.title-pledges a:visited {
+    color: #333333;
+}
