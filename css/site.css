@@ -127,14 +127,21 @@ div.pledge-content-item {
     margin-bottom: 2em;
 }
 
-.title-pledges a {
+.title-pledges a,
+.title-pledges a:visited {
     text-decoration: none;
+    color: #333333;
+
+
+
 }
 
 .title-pledges a:hover {
     color: #337ab7;
 }
 
-.title-pledges a:visited {
-    color: #333333;
+
+
+div.hidden-pledge {
+    display: none;
 }
