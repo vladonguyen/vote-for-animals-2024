@@ -125,7 +125,6 @@ img.img-responsive {
     display: block;
     max-width: 100%;
     height: auto;
-
 }
 
 div.pledge-content-item {
@@ -154,4 +153,48 @@ div.hidden-pledge {
 
 section.signed-candidates {
     background-color: #f2e9df;
+}
+
+section#partners {
+    background-color: #f2e9df;
+    padding: 2em 1em;
+    margin: auto;
+
+
+}
+
+div.partners-title {
+    text-align: center;
+
+}
+
+div.partners-title>h3 {
+    background-color: #fff;
+    width: fit-content;
+    margin: auto;
+    padding: 0.3em;
+    border-radius: 0.2em;
+}
+
+
+div.container-partners {
+    max-width: 1200px;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin: auto;
+
+}
+
+div.partners-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 27px;
+
+}
+
+img.img-responsive-partners {
+    display: block;
+    max-width: 8em;
+    height: auto;
 }
