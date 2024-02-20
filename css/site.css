@@ -3,6 +3,8 @@
 @import url(header.css);
 @import url(footer.css);
 
+/*TODO Responsive font size and QA testing*/
+
 div.banner {
     background-color: #f2e9df;
 }
