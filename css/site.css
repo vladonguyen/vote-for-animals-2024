@@ -145,3 +145,7 @@ div.pledge-content-item {
 div.hidden-pledge {
     display: none;
 }
+
+section.signed-candidates {
+    background-color: #f2e9df;
+}
