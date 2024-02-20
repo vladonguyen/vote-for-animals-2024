@@ -1,0 +1,35 @@
+footer {
+    background-color: #f2e9df;
+}
+
+img.img-responsive-partners {
+    display: block;
+    max-width: 8em;
+    height: auto;
+}
+
+div.left-align-content>p {
+    text-align: left;
+}
+
+h4.eu-law-text {
+    font-style: italic;
+    font-weight: 100;
+    text-align: left;
+    padding-bottom: 1em;
+}
+
+p.eu-law-text {
+    font-style: italic;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: #f18f59;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #1f6ed4;
+}

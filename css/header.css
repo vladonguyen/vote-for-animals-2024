@@ -24,8 +24,13 @@ div#logo {
     height: auto;
 }
 
-div#language {
+div#language a {
     color: #1f6ed4;
+    text-decoration: none;
+}
+
+div#language a:hover {
+    color: #f18f59;
 }
 
 div.container {
