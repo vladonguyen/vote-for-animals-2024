@@ -8,7 +8,7 @@ for (const title of allPledgeTitles) {
 }
 
 //toggle function
-//TODO toggle smooth transition
+
 function toggle(event) {
     event.preventDefault();
 
