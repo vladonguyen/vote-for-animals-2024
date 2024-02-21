@@ -16,13 +16,28 @@ function toggle(event) {
 
     for (let content of allPledgeContent) {
         let contentId = content.id;
-        if (contentId != currentUrlHash && !content.classList.contains('hidden-pledge')) {
-            content.classList.add('hidden-pledge');
-        } else if (contentId == currentUrlHash && content.classList.contains('hidden-pledge')) {
-            content.classList.remove('hidden-pledge');
-        } else if (contentId == currentUrlHash && !content.classList.contains('hidden-pledge')) {
-            content.classList.add('hidden-pledge');
+
+        if (contentId != currentUrlHash && content.classList.contains('active')) {
+            content.classList.remove('active');
+            content.style.maxHeight = 0;
+        } else if (contentId == currentUrlHash) {
+            if (!content.classList.contains('active')) {
+                content.classList.add('active');
+            }
+
+            if (content.classList.contains('first-pledge')) {
+                content.classList.remove('first-pledge');
+                content.classList.add('hidden-pledge');
+                content.style.maxHeight = null;
+            } else if (content.style.maxHeight == 0 || content.style.maxHeight == '0px') {
+                content.style.maxHeight = content.scrollHeight + 'px';
+            } else {
+                content.style.maxHeight = null;
+            }
+
         }
+
+
     }
 
 }

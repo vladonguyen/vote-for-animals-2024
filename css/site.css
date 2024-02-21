@@ -139,20 +139,28 @@ div.pledge-content-item {
 .title-pledges a:visited {
     text-decoration: none;
     color: #333333;
-
-
-
+    display: block;
+    cursor: pointer;
 }
 
 .title-pledges a:hover {
     color: #337ab7;
+
 }
 
+div.first-pledge {
+    max-height: 27em;
+    overflow: hidden;
+    transition: max-height 0.4s ease-out;
 
+}
 
 div.hidden-pledge {
-    display: none;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-out;
 }
+
 
 section.signed-candidates {
     background-color: #f2e9df;
