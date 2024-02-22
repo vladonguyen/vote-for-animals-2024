@@ -2,6 +2,12 @@ html {
     font: 18px/1.5 'Barwow', 'Arial', sans-serif
 }
 
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 14px;
+    }
+}
+
 body,
 input,
 textarea {

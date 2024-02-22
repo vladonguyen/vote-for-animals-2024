@@ -32,6 +32,13 @@ div.container {
 
 }
 
+@media screen and (max-width:768px) {
+    div.container {
+        padding: 0.8em;
+
+    }
+}
+
 div#cta {
     font-size: 1.11em;
     text-transform: uppercase;
@@ -94,16 +101,25 @@ div#right-column {
     padding: 1em;
 }
 
-div.desc-form {
+div.desc-form>h2 {
     text-align: left;
+    font-size: 1.31em;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-bottom: 1em;
 }
+
 
 div#right-column {
     text-align: left;
 }
 
 h2#pledges-title {
-    margin-bottom: 0.5em;
+    text-align: left;
+    font-size: 1.31em;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-bottom: 0em;
 }
 
 div.title-pledges {
@@ -204,4 +220,35 @@ div.partners-list {
     align-items: center;
     gap: 14px;
 
+}
+
+img.img-responsive-partners {
+    display: block;
+    /* max-width: 8em;*/
+    height: auto;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: calc((100% - 6 * 14px) / 7);
+    /* Calculate the width for 7 images with a 14px gap between them */
+    max-width: calc((100% - 6 * 14px) / 7);
+    /* Ensure images don't exceed the calculated width */
+}
+
+@media screen and (max-width:425px) {
+
+    div.container-partners {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+
+    div.partners-list {
+        gap: 7px;
+    }
+
+
+    img.img-responsive-partners {
+        flex-basis: calc((100% - 4 * 7px) / 5);
+        max-width: calc((100% - 4 * 7px) / 5);
+    }
 }

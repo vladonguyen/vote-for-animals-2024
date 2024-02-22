@@ -2,11 +2,7 @@ footer {
     background-color: #f2e9df;
 }
 
-img.img-responsive-partners {
-    display: block;
-    max-width: 8em;
-    height: auto;
-}
+
 
 div.left-align-content>p {
     text-align: left;
