@@ -2,6 +2,7 @@
 @import url(typography.css);
 @import url(header.css);
 @import url(footer.css);
+@import url(10-pledges.css);
 
 div.banner {
     background-color: #f2e9df;

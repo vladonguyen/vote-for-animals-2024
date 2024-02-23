@@ -1,0 +1,34 @@
+div.banner-white-bg {
+    background-color: #fff;
+}
+
+div.banner-white-bg img {
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+}
+
+
+div.button-space {
+    display: flex;
+    justify-content: flex-start;
+}
+
+button.go-back {
+    background: transparent;
+    color: #424242;
+    border: 0.12em solid #424242;
+    border-radius: 0.24em;
+    font-size: 1em;
+    padding: 0.44em 0.88em;
+    font-weight: 600;
+    transition: all 0.2s ease;
+    touch-action: manipulation;
+    cursor: pointer;
+}
+
+button.go-back:hover {
+    background: #424242;
+    color: #fff;
+    border-color: #424242;
+}
