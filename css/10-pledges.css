@@ -35,4 +35,5 @@ button.go-back:hover {
 
 div.flex-wrap {
     display: flex;
+    flex-wrap: wrap;
 }
