@@ -150,6 +150,18 @@ div.pledge-content-item {
     margin-bottom: 2em;
 }
 
+div.pledge-content-item a,
+div.pledge-content-item a:visited {
+    text-decoration: none;
+    color: #037c94;
+}
+
+div.pledge-content-item a:hover {
+    text-decoration: underline;
+    color: #00a8c1;
+}
+
+
 .title-pledges a,
 .title-pledges a:visited {
     text-decoration: none;
