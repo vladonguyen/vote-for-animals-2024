@@ -8,6 +8,9 @@ div.banner-white-bg img {
     height: auto;
 }
 
+nav div.container {
+    padding-bottom: 0;
+}
 
 div.button-space {
     display: flex;
@@ -36,4 +39,65 @@ button.go-back:hover {
 div.flex-wrap {
     display: flex;
     flex-wrap: wrap;
+    gap: 14px;
+}
+
+div.img-pledge {
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: calc((100% - 1 * 14px) / 2);
+
+}
+
+div.img-pledge img {
+    width: 100%;
+    height: auto;
+    align-self: center;
+
+}
+
+div.text-pledge {
+    display: block;
+    /* max-width: 8em;*/
+    height: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: calc((100% - 1 * 14px) / 2);
+
+}
+
+div.text-pledge h3 {
+    color: rgb(66, 66, 66);
+    text-align: left;
+}
+
+div.text-pledge p,
+ul,
+li {
+    color: rgb(13, 13, 15);
+    font-size: 0.84rem;
+    text-align: left;
+}
+
+div.text-pledge ul {
+    color: rgb(13, 13, 15);
+    font-size: 0.84rem;
+    text-align: left;
+    list-style-position: inside;
+}
+
+div.text-pledge li {
+    color: rgb(13, 13, 15);
+    font-size: 0.84rem;
+    text-align: left;
+    padding-left: 1em;
+}
+
+@media screen and (max-width:425px) {
+    div.flex-wrap {
+        flex-direction: column;
+
+    }
+
 }
