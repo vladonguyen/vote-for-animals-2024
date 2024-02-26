@@ -73,26 +73,21 @@ div.text-pledge h3 {
 }
 
 div.text-pledge p,
-ul,
-li {
+div.text-pledge ul,
+div.text-pledge li {
     color: rgb(13, 13, 15);
     font-size: 0.84rem;
     text-align: left;
 }
 
 div.text-pledge ul {
-    color: rgb(13, 13, 15);
-    font-size: 0.84rem;
-    text-align: left;
     list-style-position: inside;
 }
 
 div.text-pledge li {
-    color: rgb(13, 13, 15);
-    font-size: 0.84rem;
-    text-align: left;
     padding-left: 1em;
 }
+
 
 @media screen and (max-width:425px) {
     div.flex-wrap {
@@ -100,4 +95,33 @@ div.text-pledge li {
 
     }
 
+    div.text-pledge p,
+    div.text-pledge ul,
+    div.text-pledge li {
+        color: rgb(13, 13, 15);
+        font-size: 1rem;
+        text-align: left;
+    }
+
+    .flex-wrap :nth-child(1) {order:1}
+    .flex-wrap :nth-child(2) {order:2}
+    .flex-wrap :nth-child(4) {order:3}
+    .flex-wrap :nth-child(3) {order:4}
+    .flex-wrap :nth-child(5) {order:5}
+    .flex-wrap :nth-child(6) {order:6}
+    .flex-wrap :nth-child(8)  {order:7}
+    .flex-wrap :nth-child(7) {order:8}
+    .flex-wrap :nth-child(9) {order:9}
+    .flex-wrap :nth-child(10) {order:10}
+    .flex-wrap :nth-child(12) {order:11}
+    .flex-wrap :nth-child(11) {order:12}
+    .flex-wrap :nth-child(13) {order:13}
+    .flex-wrap :nth-child(14) {order:14}
+    .flex-wrap :nth-child(16) {order:15}
+    .flex-wrap :nth-child(15) {order:16}
+    .flex-wrap :nth-child(17) {order:17}
+    .flex-wrap :nth-child(18) {order:18}
+    .flex-wrap :nth-child(20) {order:19}
+    .flex-wrap :nth-child(19) {order:20}
+    
 }
