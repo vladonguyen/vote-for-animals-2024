@@ -1,5 +1,9 @@
-div.banner-white-bg {
-    background-color: #fff;
+body{
+    background-color: #ededed;
+}
+
+body > * {
+    background-color: inherit;
 }
 
 div.banner-white-bg img {
