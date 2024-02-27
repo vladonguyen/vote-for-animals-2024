@@ -1,6 +1,6 @@
 ## Vote 4 Animals Campaign Website
 
-This is official repository for the Vote 4 Animals campaign website in Bulgarian. This website is dedicated to the international campaign aimed at raising awareness and advocacy for animal protection in conjunction with the 2024 EU Elections for Members of the European Parliament.
+This is official repository for the Vote 4 Animals campaign website in Bulgarian for CAAI Bulgaria. This website is dedicated to the international campaign aimed at raising awareness and advocacy for animal protection in conjunction with the 2024 EU Elections for Members of the European Parliament.
 
 ### About
 
