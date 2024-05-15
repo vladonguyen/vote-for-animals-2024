@@ -262,3 +262,13 @@ img.img-responsive-partners {
         max-width: calc((100% - 4 * 7px) / 5);
     }
 }
+
+
+.proca-postcode {
+    display: none !important;
+}
+
+
+.proca-locality {
+    display: none !important;
+}
